@@ -7,4 +7,4 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println (dice-prob 100 350)))
+  (println (dice-prob-memo 100 350)))
